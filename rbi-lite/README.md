@@ -1,6 +1,6 @@
 # RBI-lite: Risk-Based Inspection Scheduling with Bayesian Updating + POD
 
-## What this project does (non-technical)
+## What this project does?
 Industrial assets (pipes/vessels) lose thickness due to corrosion. Inspections are expensive, but late inspections can lead to failures.
 This project simulates a simple, realistic decision system to recommend inspection intervals by balancing:
 - uncertainty in corrosion rate,
@@ -22,7 +22,7 @@ This project simulates a simple, realistic decision system to recommend inspecti
 4) Multi-cycle policy simulation (adaptive inspection scheduling over time)  
 ![Thickness and inspections](figures/step6_thickness_and_inspections.png)
 
-## Method overview (technical, short)
+## Method overview
 - Corrosion model: thickness(t) = t0 - r*t
 - r is uncertain and updated using Bayesian grid update based on inspection measurements.
 - Failure defined when thickness < t_min
