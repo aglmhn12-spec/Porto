@@ -1,0 +1,19 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+
+# Data validation & config
+pydantic>=2.5
+pyyaml>=6.0
+
+# Visualization & dashboard
+plotly>=5.18
+streamlit>=1.31
+
+# Code quality & testing
+ruff>=0.3
+pytest>=8.0
+
+# Documentation (optional but recommended)
+mkdocs>=1.5
