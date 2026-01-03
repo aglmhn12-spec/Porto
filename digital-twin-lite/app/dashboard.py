@@ -25,7 +25,7 @@ def load_log(path: Path) -> pd.DataFrame:
 
 
 def get_default_params() -> SeparatorParams:
-    # Kalau kamu sudah punya hasil kalibrasi Step 3, isi Cv_l & kg_n_sqrt dengan hasil itu.
+    # Kalau sudah punya hasil kalibrasi Step 3, isi Cv_l & kg_n_sqrt dengan hasil itu.
     return SeparatorParams(
         A=3.0, V_total=12.0, L_max=3.0, V_min=0.2,
         rho_l=850.0, g=9.81, Patm=101_325.0, P_out=101_325.0,
